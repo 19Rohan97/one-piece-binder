@@ -62,7 +62,7 @@ This will create an optimized build in the `build` folder that can be deployed t
 
 ## API Reference
 
-This project uses the [One Piece API](https://api.api-onepiece.com) to fetch character data. Specifically, it uses the following endpoint:
+This project uses the [One Piece API](https://api-onepiece.com/en/documentation) to fetch character data. Specifically, it uses the following endpoint:
 
 ```
 GET https://api.api-onepiece.com/v2/characters/en/crew/1
