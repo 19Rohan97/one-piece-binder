@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# One Piece Binder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React application that showcases the Straw Hat Pirates crew from the popular anime/manga series One Piece. This application fetches character data from the One Piece API and displays it in a visually appealing card layout.
 
-## Available Scripts
+![One Piece Banner](public/images/hero.jpg)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Displays information about the Straw Hat Pirates crew members
+- Fetches real-time data from the One Piece API
+- Responsive grid layout for different screen sizes
+- Character cards with images, names, and roles
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React 19.1.0
+- Tailwind CSS 3.4.17
+- One Piece API (api.api-onepiece.com)
 
-### `npm test`
+## Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before you begin, ensure you have the following installed:
 
-### `npm run build`
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/yourusername/one-piece-binder.git
+   cd one-piece-binder
+   ```
 
-### `npm run eject`
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Development Mode
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the application in development mode:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+This will start the development server and open the application in your default browser at [http://localhost:3000](http://localhost:3000).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Production Build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To create a production build:
 
-### Code Splitting
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This will create an optimized build in the `build` folder that can be deployed to a web server.
 
-### Analyzing the Bundle Size
+## API Reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project uses the [One Piece API](https://api.api-onepiece.com) to fetch character data. Specifically, it uses the following endpoint:
 
-### Making a Progressive Web App
+```
+GET https://api.api-onepiece.com/v2/characters/en/crew/1
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This endpoint returns information about the Straw Hat Pirates crew (crew ID: 1).
 
-### Advanced Configuration
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+one-piece-binder/
+├── public/
+│   ├── images/
+│   │   ├── hero.jpg
+│   │   ├── mugiwara-1.png
+│   │   ├── mugiwara-2.png
+│   │   └── ...
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+└── package.json
+```
 
-### Deployment
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Data provided by the [One Piece API](https://api.api-onepiece.com)
+- Images and characters are property of Eiichiro Oda and related copyright holders
