@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/one-piece-binder/static/css/main.f572c8fb.css",
-    "main.js": "/one-piece-binder/static/js/main.166028ca.js",
+    "main.js": "/one-piece-binder/static/js/main.a8df9701.js",
     "index.html": "/one-piece-binder/index.html",
     "main.f572c8fb.css.map": "/one-piece-binder/static/css/main.f572c8fb.css.map",
-    "main.166028ca.js.map": "/one-piece-binder/static/js/main.166028ca.js.map"
+    "main.a8df9701.js.map": "/one-piece-binder/static/js/main.a8df9701.js.map"
   },
   "entrypoints": [
     "static/css/main.f572c8fb.css",
-    "static/js/main.166028ca.js"
+    "static/js/main.a8df9701.js"
   ]
 }
