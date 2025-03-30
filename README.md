@@ -8,14 +8,17 @@ A React application that showcases the Straw Hat Pirates crew from the popular a
 
 - Displays information about the Straw Hat Pirates crew members
 - Fetches real-time data from the One Piece API
-- Responsive grid layout for different screen sizes
+- Responsive grid layout for different screen sizes (mobile, tablet, desktop)
 - Character cards with images, names, and roles
+- Loading state indicator while fetching data
+- Error handling with user-friendly error messages
 
 ## Technologies Used
 
-- React 19.1.0
-- Tailwind CSS 3.4.17
+- React 19.1.0 (with Hooks for state management)
+- Tailwind CSS 3.4.17 (for responsive design)
 - One Piece API (api.api-onepiece.com)
+- Async/Await for API calls with error handling
 
 ## Prerequisites
 
@@ -82,11 +85,25 @@ one-piece-binder/
 │   │   └── ...
 │   └── index.html
 ├── src/
-│   ├── App.js
-│   ├── index.css
-│   └── index.js
-└── package.json
+│   ├── App.js         # Main application with components and API integration
+│   ├── index.css      # Global styles and Tailwind imports
+│   └── index.js       # Application entry point
+├── package.json       # Project dependencies and scripts
+├── tailwind.config.js # Tailwind CSS configuration
+└── postcss.config.js  # PostCSS configuration for Tailwind
 ```
+
+## Components
+
+The application is built with the following React components:
+
+- `App`: Main component that manages state and data fetching
+- `Hero`: Displays the hero banner image
+- `MugiwaraSection`: Container for the crew members section
+- `Grid`: Responsive grid layout for character cards
+- `Nakima`: Individual character card component
+- `Loader`: Loading indicator while fetching data
+- `ErrorMessage`: Displays user-friendly error messages
 
 ## Contributing
 
