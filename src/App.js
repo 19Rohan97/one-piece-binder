@@ -63,7 +63,7 @@ function Hero() {
   return (
     <section className="hero">
       <img
-        src="/images/hero.jpg"
+        src="/one-piece-binder/images/hero.jpg"
         alt="One Piece"
         className="w-full h-[400px] md:h-[600px] object-cover"
       />
