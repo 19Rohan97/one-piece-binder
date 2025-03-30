@@ -93,7 +93,7 @@ function Nakima({ nakima }) {
       <div className="flex flex-col items-center py-10">
         <img
           className="w-24 h-24 mb-3 rounded-full shadow-lg bg-white"
-          src={`/images/mugiwara-${nakima.id}.png`}
+          src={`/one-piece-binder/images/mugiwara-${nakima.id}.png`}
           alt={nakima.name}
         />
         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
